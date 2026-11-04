@@ -30,7 +30,7 @@ A migration project could involve extracting the eligibility conditions, confirm
 
 The objective is not merely to transfer executable logic. It is to ensure the new implementation applies the intended business rules reliably.
 
-For readers unfamiliar with the underlying technology, our guide to [what a business rules engine is and how it works](https://training.brsolutions.ai/blog/what-is-a-business-rules-engine) explains the core concepts.
+For readers unfamiliar with the underlying technology, our guide to [business rules engine](https://training.brsolutions.ai/blog/what-is-a-business-rules-engine) explains the core concepts.
 
 ## When Should You Migrate a Legacy Rules Engine?
 
@@ -90,7 +90,7 @@ Modernization may involve migrating rules, but it can also include improving the
 
 Before committing to migration, organizations should compare alternatives.
 
-Our guide to [business rules automation and build-versus-buy decisions](https://training.brsolutions.ai/blog/business-rules-automation) explains the broader technology-selection considerations.
+Our guide to [business rules automation](https://training.brsolutions.ai/blog/business-rules-automation) explains the broader technology-selection considerations.
 
 ## Rules Engine Migration Example: Insurance Eligibility Rules
 
@@ -198,7 +198,7 @@ Document which applications call the existing decision logic and which data sour
 
 Legacy implementations may contain technical dependencies that are not visible in business documentation.
 
-Our article on [extracting business rules from legacy code](https://training.brsolutions.ai/blog/extract-business-rules-from-legacy-code) explores the discovery challenges involved in separating business logic from older implementations.
+Our article on [rules from legacy code](https://training.brsolutions.ai/blog/extract-business-rules-from-legacy-code) explores the discovery challenges involved in separating business logic from older implementations.
 
 ### Step 3: Recover the Business Meaning of Each Rule
 
@@ -262,7 +262,7 @@ Possible approaches include:
 - Decision services.
 - Application-level decision logic.
 
-Where appropriate, consider [Decision Model and Notation (DMN), maintained by the Object Management Group](https://www.omg.org/dmn/), for modeling business decisions.
+Where appropriate, consider [Decision Model and Notation](https://www.omg.org/dmn/), for modeling business decisions.
 
 DMN supports a shared approach to describing decisions, dependencies, and decision logic. It can help business and technical stakeholders communicate more clearly.
 
@@ -468,7 +468,7 @@ Before selecting the target architecture, evaluate the following factors.
 | Migration cost | What resources are needed for discovery, implementation, and testing? |
 | Operational risk | What happens if the new implementation produces incorrect decisions? |
 
-IBM's guidance on [considerations when using a rules engine](https://www.ibm.com/docs/en/imdm/12.0?topic=rules-considerations-in-using-engine) highlights the importance of rule purpose, change frequency, data characteristics, and the skills required to manage rule implementations.
+IBM's guidance on [rules engine considerations](https://www.ibm.com/docs/en/imdm/12.0?topic=rules-considerations-in-using-engine) highlights the importance of rule purpose, change frequency, data characteristics, and the skills required to manage rule implementations.
 
 These considerations remain relevant when evaluating migration options.
 
@@ -511,7 +511,7 @@ Before a development team can safely move a rule, someone must determine:
 - Who owns the decision?
 - Which other rules depend on it?
 
-[RonBot](https://training.brsolutions.ai/ronbot) from Business Rule Solutions uses AI-assisted learning and structured business-analysis methods to help professionals work through business knowledge questions.
+[RonBot from Business Rule Solutions](https://training.brsolutions.ai/ronbot) uses AI-assisted learning and structured business-analysis methods to help professionals work through business knowledge questions.
 
 For teams preparing a migration, this approach can support activities such as reviewing policy documents, identifying candidate rules, clarifying terminology, developing questions for subject matter experts, and preparing rule statements for validation.
 
